@@ -1,0 +1,19 @@
+{
+  "name": "banco-inter-chat-suporte-sempre-ativo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-playwright": "npx playwright install"
+  },
+  "author": "Jullierme Barros",
+  "license": "MIT",
+  "description": "Script para manter o chat de suporte do banco Inter sempre ativo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jullierme/keep-banco-inter-message-active.git"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.45.2"
+  }
+}
